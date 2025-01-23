@@ -1,6 +1,19 @@
 {
+  "name": "websocket-proxy",
+  "version": "1.0.0",
+  "description": "A WebSocket proxy proxy for global use.",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
   "dependencies": {
     "http-proxy": "^1.18.1",
     "ws": "^8.18.0"
-  }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }
